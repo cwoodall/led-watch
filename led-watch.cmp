@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sun 09 Sep 2012 11:24:18 AM EDT
+
+BeginCmp
+TimeStamp = /504BC928;
+Reference = BT1;
+ValeurCmp = 3V_Lithium_Ion_;
+IdModule  = BATTERY_CR1632_RETAINER;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BA801;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8D55;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BA70C;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8E46;
+Reference = C4;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8E55;
+Reference = C5;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504CB332;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8FBD;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8FCC;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9D8E;
+Reference = D3;
+ValeurCmp = RGB_LED;
+IdModule  = RGB_LED_HSMF-C114;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8FDB;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8FEA;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8D37;
+Reference = IC1;
+ValeurCmp = ATTINY24A-SS;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BA647;
+Reference = R1;
+ValeurCmp = 47k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8DEC;
+Reference = R2;
+ValeurCmp = DNP;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9FA6;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9EB4;
+Reference = R4;
+ValeurCmp = 27;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9F97;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9EA5;
+Reference = R6;
+ValeurCmp = 27;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9E96;
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9F88;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B9F79;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504CA18F;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH_EVQP7C;
+EndCmp
+
+BeginCmp
+TimeStamp = /504CA19E;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH_EVQP7C;
+EndCmp
+
+BeginCmp
+TimeStamp = /504B8E1A;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = XTAL_32.768kHz_CMJ206T;
+EndCmp
+
+EndListe

@@ -1,0 +1,277 @@
+# EESchema Netlist Version 1.1 created  Sun 09 Sep 2012 11:22:47 AM EDT
+(
+ ( /504B8D37 SO14E  IC1 ATTINY24A-SS {Lib=ATTINY24A-SS}
+  (    1 VCC )
+  (    2 N-000021 )
+  (    3 N-000020 )
+  (    4 /RST# )
+  (    5 SW0 )
+  (    6 SW1 )
+  (    7 MIN2 )
+  (    8 MIN1 )
+  (    9 MIN0 )
+  (   10 HR3 )
+  (   11 HR2 )
+  (   12 HR1 )
+  (   13 HR0 )
+  (   14 GND )
+ )
+ ( /504B8D55 SM0805  C2 .1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /504B8DEC SM0805  R2 DNP {Lib=R-US}
+  (    1 N-000020 )
+  (    2 N-000021 )
+ )
+ ( /504B8E1A XTAL_32.768kHz_CMJ206T  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000020 )
+  (    2 N-000021 )
+ )
+ ( /504B8E46 SM0805  C4 12pF {Lib=C}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /504B8E55 SM0805  C5 12pF {Lib=C}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /504B8FBD SM0805  D1 LED {Lib=LED}
+  (    1 HR3 )
+  (    2 N-000007 )
+ )
+ ( /504B8FCC SM0805  D2 LED {Lib=LED}
+  (    1 HR2 )
+  (    2 N-000013 )
+ )
+ ( /504B8FDB SM0805  D4 LED {Lib=LED}
+  (    1 HR1 )
+  (    2 N-000012 )
+ )
+ ( /504B8FEA SM0805  D5 LED {Lib=LED}
+  (    1 HR0 )
+  (    2 N-000011 )
+ )
+ ( /504B9D8E RGB_LED_HSMF-C114  D3 RGB_LED {Lib=RGB_LED}
+  (    1 VCC )
+  (    2 N-000010 )
+  (    3 N-000009 )
+  (    4 N-000008 )
+ )
+ ( /504B9E96 SM0805  R7 100 {Lib=R-US}
+  (    1 MIN0 )
+  (    2 N-000010 )
+ )
+ ( /504B9EA5 SM0805  R6 27 {Lib=R-US}
+  (    1 MIN1 )
+  (    2 N-000009 )
+ )
+ ( /504B9EB4 SM0805  R4 27 {Lib=R-US}
+  (    1 MIN2 )
+  (    2 N-000008 )
+ )
+ ( /504B9F79 SM0805  R9 100 {Lib=R-US}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /504B9F88 SM0805  R8 100 {Lib=R-US}
+  (    1 GND )
+  (    2 N-000012 )
+ )
+ ( /504B9F97 SM0805  R5 100 {Lib=R-US}
+  (    1 GND )
+  (    2 N-000013 )
+ )
+ ( /504B9FA6 SM0805  R3 100 {Lib=R-US}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /504BA647 SM0805  R1 47k {Lib=R-US}
+  (    1 /RST# )
+  (    2 VCC )
+ )
+ ( /504BA70C SM0805  C3 .1uF {Lib=C}
+  (    1 /RST# )
+  (    2 GND )
+ )
+ ( /504BA801 SM0805  C1 10uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /504BC928 BATTERY_CR1632_RETAINER  BT1 3V_Lithium_Ion_(1632) {Lib=BATTERY}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /504CA18F SWITCH_EVQP7C  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 SW0 )
+ )
+ ( /504CA19E SWITCH_EVQP7C  SW2 SW_PUSH {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 SW1 )
+ )
+ ( /504CB332 AVR-ISP-6  CON1 AVR-ISP-6 {Lib=AVR-ISP-6}
+  (    1 MIN1 )
+  (    2 VCC )
+  (    3 MIN0 )
+  (    4 MIN2 )
+  (    5 /RST# )
+  (    6 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "SW0" "SW0"
+ SW1 2
+ IC1 5
+Net 2 "MIN2" "MIN2"
+ CON1 4
+ R4 1
+ IC1 7
+Net 3 "MIN1" "MIN1"
+ R6 1
+ CON1 1
+ IC1 8
+Net 4 "MIN0" "MIN0"
+ CON1 3
+ IC1 9
+ R7 1
+Net 5 "HR0" "HR0"
+ IC1 13
+ D5 1
+Net 6 "VCC" "VCC"
+ C2 1
+ C1 1
+ R1 2
+ IC1 1
+ BT1 1
+ D3 1
+ CON1 2
+Net 7 "" ""
+ D1 2
+ R3 2
+Net 8 "" ""
+ D3 4
+ R4 2
+Net 9 "" ""
+ R6 2
+ D3 3
+Net 10 "" ""
+ R7 2
+ D3 2
+Net 11 "" ""
+ R9 2
+ D5 2
+Net 12 "" ""
+ D4 2
+ R8 2
+Net 13 "" ""
+ D2 2
+ R5 2
+Net 14 "HR1" "HR1"
+ IC1 12
+ D4 1
+Net 15 "HR2" "HR2"
+ IC1 11
+ D2 1
+Net 16 "HR3" "HR3"
+ D1 1
+ IC1 10
+Net 17 "GND" "GND"
+ CON1 6
+ R9 1
+ C2 2
+ R3 1
+ R8 1
+ R5 1
+ C4 2
+ C1 2
+ C5 2
+ SW2 1
+ SW1 1
+ BT1 2
+ C3 2
+ IC1 14
+Net 18 "/RST#" "RST#"
+ IC1 4
+ R1 1
+ C3 1
+ CON1 5
+Net 19 "SW1" "SW1"
+ IC1 6
+ SW2 2
+Net 20 "" ""
+ X1 1
+ R2 1
+ C5 1
+ IC1 3
+Net 21 "" ""
+ X1 2
+ C4 1
+ R2 2
+ IC1 2
+}
+#End
