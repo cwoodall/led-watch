@@ -1,4 +1,4 @@
-update=Sat 08 Sep 2012 09:33:19 PM EDT
+update=Sat 15 Sep 2012 10:46:58 AM EDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -58,9 +58,9 @@ LibName35=/home/cwoodall/Documents/workspace/electro-ocarina/hardware/hrl
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrlX=285
-PadDimH=315
-PadDimV=315
+PadDrlX=0
+PadDimH=590
+PadDimV=350
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
