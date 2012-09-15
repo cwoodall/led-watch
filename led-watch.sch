@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 09 Sep 2012 01:36:42 PM EDT
+EESchema Schematic File Version 2  date Fri 14 Sep 2012 10:10:36 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 sep 2012"
+Date "14 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -195,15 +195,25 @@ F 1 "GND" H 8200 3230 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3700 7100 3700
+	5900 3700 6600 3700
+Wire Wire Line
+	6600 3700 7000 3700
+Wire Wire Line
+	7000 3700 7100 3700
 Wire Wire Line
 	5900 3800 6350 3800
 Wire Wire Line
 	6350 3800 6350 4300
 Wire Wire Line
-	6350 4300 7100 4300
+	6350 4300 6600 4300
 Wire Wire Line
-	7600 3700 7600 4400
+	6600 4300 7000 4300
+Wire Wire Line
+	7000 4300 7100 4300
+Wire Wire Line
+	7600 3700 7600 4300
+Wire Wire Line
+	7600 4300 7600 4400
 Wire Wire Line
 	7600 3700 7500 3700
 Wire Wire Line
@@ -222,16 +232,28 @@ Wire Wire Line
 Wire Wire Line
 	3700 4000 3800 4000
 Wire Wire Line
-	3700 2700 3700 2850
+	3700 2700 3700 2800
 Wire Wire Line
-	3350 2800 3800 2800
+	3700 2800 3700 2850
+Wire Wire Line
+	3350 2800 3700 2800
+Wire Wire Line
+	3700 2800 3800 2800
 Connection ~ 3700 2800
 Wire Wire Line
-	3700 3250 3700 3400
+	3700 3250 3700 3350
 Wire Wire Line
-	8200 3150 8200 3300
+	3700 3350 3700 3400
 Wire Wire Line
-	8200 3250 9300 3250
+	8200 3150 8200 3250
+Wire Wire Line
+	8200 3250 8200 3300
+Wire Wire Line
+	8200 3250 8600 3250
+Wire Wire Line
+	8600 3250 8950 3250
+Wire Wire Line
+	8950 3250 9300 3250
 Wire Wire Line
 	9300 3250 9300 3150
 Connection ~ 8200 3250
@@ -308,8 +330,8 @@ $Comp
 L R-US R7
 U 1 1 504B9E96
 P 8800 5150
-F 0 "R7" H 8730 5340 60  0000 C CNN
-F 1 "100" H 8800 5250 60  0000 C CNN
+F 0 "R7" V 8900 5000 60  0000 C CNN
+F 1 "100" V 8800 5000 60  0000 C CNN
 F 2 "SM0805" H 8800 5350 60  0001 C CNN
 	1    8800 5150
 	0    -1   -1   0   
@@ -318,8 +340,8 @@ $Comp
 L R-US R6
 U 1 1 504B9EA5
 P 8600 5150
-F 0 "R6" H 8530 5340 60  0000 C CNN
-F 1 "27" H 8600 5250 60  0000 C CNN
+F 0 "R6" V 8700 5250 60  0000 C CNN
+F 1 "27" V 8600 5250 60  0000 C CNN
 F 2 "SM0805" H 8600 5350 60  0001 C CNN
 	1    8600 5150
 	0    -1   -1   0   
@@ -328,8 +350,8 @@ $Comp
 L R-US R4
 U 1 1 504B9EB4
 P 8400 5150
-F 0 "R4" H 8330 5340 60  0000 C CNN
-F 1 "27" H 8400 5250 60  0000 C CNN
+F 0 "R4" V 8500 5250 60  0000 C CNN
+F 1 "27" V 8400 5250 60  0000 C CNN
 F 2 "SM0805" H 8400 5350 60  0001 C CNN
 	1    8400 5150
 	0    -1   -1   0   
@@ -426,7 +448,9 @@ F 1 "GND" H 1950 3730 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3300 1950 3800
+	1950 3300 1950 3650
+Wire Wire Line
+	1950 3650 1950 3800
 Wire Wire Line
 	1950 3300 2050 3300
 Text GLabel 2750 3300 2    40   Output ~ 0
@@ -463,7 +487,9 @@ $EndComp
 Wire Wire Line
 	6450 4550 6450 4600
 Wire Wire Line
-	6450 5000 6450 5100
+	6450 5000 6450 5050
+Wire Wire Line
+	6450 5050 6450 5100
 Wire Wire Line
 	6450 5050 6050 5050
 Wire Wire Line
@@ -511,9 +537,9 @@ Wire Wire Line
 Connection ~ 3700 3350
 Text Notes 8850 4700 0    40   ~ 0
 R
-Text Notes 8650 4700 0    40   ~ 0
-G\n
 Text Notes 8450 4700 0    40   ~ 0
+G\n
+Text Notes 8650 4700 0    40   ~ 0
 B
 Text Notes 8400 1600 0    40   ~ 0
 Hours Display
